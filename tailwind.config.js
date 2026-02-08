@@ -12,6 +12,10 @@ export default {
         warm: "#EE964B",
         light: "#F8F4E3",
       },
+      fontFamily: {
+        heading: ['Bigilla', 'serif'],
+        body: ['Inter', 'sans-serif'],
+      },
     },
   },
   plugins: [],

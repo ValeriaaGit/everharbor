@@ -7,7 +7,7 @@ function Navbar() {
 
                 <Link
                     to="/"
-                    className="text-gold text-xl font-bold m-6 tracking-wide hover:text-warm transition-colors"
+                    className="font-heading text-gold text-xl font-bold m-6 tracking-wide hover:text-warm transition-colors"
                 >
                     EverHarbor
                 </Link>

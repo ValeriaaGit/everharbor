@@ -7,9 +7,9 @@ import BookDetails from "./pages/BookDetails";
 // import './App.css'
 
 function App() {
-
+// flex flex-col min-h-screen bg-gradient-to-b from-blue-50 to-white
   return (
-    <div className="bg-navy text-gold min-h-screen flex flex-col min-h-screen items-center justify-center">
+    <div className="flex flex-col min-h-screen bg-gradient-to-b from-blue-400 via-blue-200 to-white">
         <Navbar />
 
         <main className="flex-grow">

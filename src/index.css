@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Bigilla';
+  src: url('./assets/fonts/Bigilla.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bigilla';
+  src: url('./assets/fonts/Bigilla-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  @apply font-body;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
