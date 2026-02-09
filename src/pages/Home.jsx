@@ -1,3 +1,4 @@
+import SearchBar from "../components/ui/SearchBar";
 
 export default function Home() {
     return (
@@ -26,7 +27,7 @@ export default function Home() {
                 </button>
             </div>
 
-            {/* <div className="absolute bottom-0 w-full h-40 bg-gradient-to-t from-blue-500/40 to-transparent"></div> */}
+            <SearchBar />
         </section>
     );
 }
