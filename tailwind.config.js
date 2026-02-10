@@ -7,14 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        navy: "#083D77",
-        gold: "#F4D35E",
-        warm: "#EE964B",
-        light: "#F8F4E3",
+        navy: '#083D77',
+        cream: '#EBEBD3',
+        gold: '#F4D35E',
+        orange: '#EE964B',
+        tomato: '#F95738',
       },
       fontFamily: {
-        heading: ['Bigilla', 'serif'],
-        body: ['Inter', 'sans-serif'],
+        heading: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        body: ['Inter', 'system-ui', 'sans-serif'],
       },
     },
   },
