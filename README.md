@@ -4,7 +4,7 @@
 
 EverHarbor is a modern, discovery-first e-library platform inspired by the ancient Library of Alexandria. Built to make reading accessible to everyone, from children discovering their first stories to academics researching cutting-edge topics.
 
----
+
 
 ## ✨ The Vision
 
@@ -16,7 +16,7 @@ While platforms like Open Library catalog millions of books, **EverHarbor focuse
 - 📚 **Age-Appropriate**: Tailored experiences for children, young adults, and academics
 - 🎨 **Beautiful by Design**: Museum-quality interface that makes reading feel special
 
----
+
 
 ## 🚀 Current Features (V1)
 
@@ -36,7 +36,7 @@ While platforms like Open Library catalog millions of books, **EverHarbor focuse
 - ✅ **Accessible** - Semantic HTML, ARIA labels, keyboard navigation
 - ✅ **Professional Architecture** - Component-based design, separation of concerns
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -47,7 +47,7 @@ While platforms like Open Library catalog millions of books, **EverHarbor focuse
 - **Tailwind CSS v3** - Utility-first styling
 - **Open Library API** - Book data source
 
----
+
 
 ## 🎨 Design System
 
@@ -68,6 +68,28 @@ Inspired by world-class cultural institutions (Louvre, Odesa Museum), EverHarbor
 - Clean minimalism with rich visual depth
 - Professional authority with inclusive accessibility
 
+## 📁 Project Structure
+```
+everharbor/
+├── public/               # Static assets
+├── src/
+│   ├── components/       # Reusable UI components
+│   │   ├── Layout/       # Navbar, Footer, Container
+│   │   └── Home/         # Home page specific components
+│   ├── data/             # Static data (voyages, moods, etc.)
+│   ├── hooks/            # Custom React hooks
+│   ├── pages/            # Route pages
+│   ├── services/         # API integration logic
+│   ├── styles/           # Global CSS
+│   ├── utils/            # Helper functions
+│   ├── App.jsx           # Root component
+│   └── main.jsx          # Entry point
+├── index.html
+├── package.json
+├── tailwind.config.js    # Tailwind configuration
+├── vite.config.js        # Vite configuration
+└── README.md
+```
 ---
 
 ## 🔮 Planned Features (V2+)
@@ -106,4 +128,4 @@ Inspired by world-class cultural institutions (Louvre, Odesa Museum), EverHarbor
 - 🔄 **Book Reviews & Ratings**
 - 🔄 **Advanced Search Filters** - By reading level, length, publication date, language
 
----
+
